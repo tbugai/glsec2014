@@ -1,0 +1,4 @@
+language: objective-c
+
+before_install: bundle install
+script: frank build && bundle exec cucumber Frank
